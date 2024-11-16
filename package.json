@@ -1,0 +1,18 @@
+{
+  "name": "es-repro",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node repro.js",
+    "test": "node repro.js"
+  },
+  "keywords": [],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "description": "Trying to reproduce https://github.com/EventSource/eventsource/issues/329#issuecomment-2479864394",
+  "dependencies": {
+    "eventsource-v2": "npm:eventsource@2.0.2",
+    "eventsource-v3": "npm:eventsource@3.0.0-beta.0"
+  }
+}
